@@ -20,9 +20,13 @@ Research Motivation
 - To refine and reasonably evaluate and formulate the Location Adjustment Parameters (LAP) of the housing tax base to assess standard values of houses, it is expected to process geographic data through GIS and build a deep learning model for factor quantification to improve business efficiency and governance quality.
 
 Research Purpose
+
 1.Visualize existing LAP and provide adjustment suggestions.
+
 2.Display business premises and other facilities in the system for reference to prosperity and convenience.
+
 3.Apply information such as the Assessed Present Value (Announced Land Price) and the Age of the Building to reflect the living value of the real estate.
+
 4.Utilizing scientific analysis tools to improve the suitability and objectivity of operation efficiency and LAP.
 
 ▌Data Collection & Data Processing
@@ -31,16 +35,23 @@ Expost Correlation Analysis
 - Based on the existing data and the current LAP heat map, the shopping malls and  the financial institutions correlate more with LAP. At the same time, the age of buildings and disgusting facilities are both negatively correlated with LAP.
 
 Data Acquisition
+
 ｜POI 
+
   ![image](POI.png)   
  
   * POI Categories.
 
 ｜Land Use
+
 18 types of land use status.
 
 Data Processing
+
 ｜Numerical Data in Grid
+
 The data is randomly sampled, and each address is converted into latitude and longitude by TGOS and Google Map API, corresponding to the grid to which the place belongs, and the calculation is performed in 141X132 grids (18,612 in total).
+
 ｜Interpolation
+
 Fill in the missing LAPs in the grid. Although some areas are open spaces (such as schools, parks, etc.) without LAPs, adding them for model training and value acquisition may provide a reference for future land changes and rezoning.
