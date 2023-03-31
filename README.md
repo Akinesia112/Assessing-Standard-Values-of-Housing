@@ -57,6 +57,8 @@ Data Processing
 - Fill in the missing LAPs in the grid. Although some areas are open spaces (such as schools, parks, etc.) without LAPs, adding them for model training and value acquisition may provide a reference for future land changes and rezoning.
 
 # ▌Model Architecture
+
 ｜Multiple Input CNN
+
 For "POI points with small influence range" and "POI points with large influence range", a grid of 100m*100m is used as the basic unit, and the sum of various POIs in each grid is used as the value of this grid for training.
 Finally, the features extracted by the 3 models (two CNNs, one Linear Regression) are combined, and the fully connected layer is used to learn the LAP features.
