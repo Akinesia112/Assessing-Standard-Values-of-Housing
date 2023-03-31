@@ -21,13 +21,13 @@ Research Motivation
 
 Research Purpose
 
-1.Visualize existing LAP and provide adjustment suggestions.
+   1.Visualize existing LAP and provide adjustment suggestions.
 
-2.Display business premises and other facilities in the system for reference to prosperity and convenience.
+   2.Display business premises and other facilities in the system for reference to prosperity and convenience.
 
-3.Apply information such as the Assessed Present Value (Announced Land Price) and the Age of the Building to reflect the living value of the real estate.
+   3.Apply information such as the Assessed Present Value (Announced Land Price) and the Age of the Building to reflect the living value of the real estate.
 
-4.Utilizing scientific analysis tools to improve the suitability and objectivity of operation efficiency and LAP.
+   4.Utilizing scientific analysis tools to improve the suitability and objectivity of operation efficiency and LAP.
 
 ▌Data Collection & Data Processing
 
