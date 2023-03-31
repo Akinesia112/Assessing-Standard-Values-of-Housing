@@ -32,7 +32,7 @@ Expost Correlation Analysis
 
 Data Acquisition
 ｜POI 
-  ![image](POI.PNG)   
+  ![image](POI.png)   
  
   * POI Categories.
 
