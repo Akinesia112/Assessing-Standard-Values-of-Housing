@@ -39,19 +39,19 @@ Data Acquisition
 ｜POI 
 
   ![image](POI.png)   
- 
-  * POI Categories.
+  
+ - POI Categories.
 
 ｜Land Use
 
-18 types of land use status.
+- 18 types of land use status.
 
 Data Processing
 
 ｜Numerical Data in Grid
 
-The data is randomly sampled, and each address is converted into latitude and longitude by TGOS and Google Map API, corresponding to the grid to which the place belongs, and the calculation is performed in 141X132 grids (18,612 in total).
+- The data is randomly sampled, and each address is converted into latitude and longitude by TGOS and Google Map API, corresponding to the grid to which the place belongs, and the calculation is performed in 141X132 grids (18,612 in total).
 
 ｜Interpolation
 
-Fill in the missing LAPs in the grid. Although some areas are open spaces (such as schools, parks, etc.) without LAPs, adding them for model training and value acquisition may provide a reference for future land changes and rezoning.
+- Fill in the missing LAPs in the grid. Although some areas are open spaces (such as schools, parks, etc.) without LAPs, adding them for model training and value acquisition may provide a reference for future land changes and rezoning.
