@@ -73,6 +73,8 @@ Finally, the features extracted by the 3 models (two CNNs, one Linear Regression
 2. The bluer the color, the model suggests that the LAP in this area should be reduced.
 Model adjustment suggestions are considered reasonable and accurate after being evaluated by professionals.
 
+  ![image](Model Architecture.png) 
+
 # ▌Results
 
 - Current LAP inspection is time-consuming (including on-site survey): about 1hr/road section.
