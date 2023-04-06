@@ -64,6 +64,7 @@ Data Processing
 Finally, the features extracted by the 3 models (two CNNs, one Linear Regression) are combined, and the fully connected layer is used to learn the LAP features.
 
   ![image](Different_Data_Types.png) 
+  ![image](Different_Visible_Area_Sizes.png) 
 
 ｜Model Results & Interpretation
 
@@ -71,8 +72,6 @@ Finally, the features extracted by the 3 models (two CNNs, one Linear Regression
 1. The redder the color, the model suggests that the LAP in this area should be increased.
 2. The bluer the color, the model suggests that the LAP in this area should be reduced.
 Model adjustment suggestions are considered reasonable and accurate after being evaluated by professionals.
-
-  ![image](Different_Visible_Area_Sizes.png) 
 
 # ▌Results
 
