@@ -60,5 +60,19 @@ Data Processing
 
 ｜Multiple Input CNN
 
-For "POI points with small influence range" and "POI points with large influence range", a grid of 100m*100m is used as the basic unit, and the sum of various POIs in each grid is used as the value of this grid for training.
+- For "POI points with small influence range" and "POI points with large influence range", a grid of 100m*100m is used as the basic unit, and the sum of various POIs in each grid is used as the value of this grid for training.
 Finally, the features extracted by the 3 models (two CNNs, one Linear Regression) are combined, and the fully connected layer is used to learn the LAP features.
+
+｜Model Results & Interpretation
+
+- In the case analysis, use the "loss between forecast and LPA in 2022" layer, and indicates the model's suggestion for the construction of the LAP of the road section:
+1. The redder the color, the model suggests that the LAP in this area should be increased.
+2. The bluer the color, the model suggests that the LAP in this area should be reduced.
+Model adjustment suggestions are considered reasonable and accurate after being evaluated by professionals.
+
+# ▌Results
+
+- Current LAP inspection is time-consuming (including on-site survey): about 1hr/road section.
+Using the visual system to reduce the inspection time-consuming: about 20min/road section.
+Overall efficiency improvement: 
+67% reduction in working hours in working hours
