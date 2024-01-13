@@ -8,9 +8,9 @@
 
 # ▌Introduction
 
-Through a data science project for the Finance and Taxation Bureau, Tainan City Government in Dec. 2022, the researcher modeled the spatial distribution of location adjustment parameters with Multiple Input CNN for assessing standard values of houses in Tainan City, Taiwan.
+Through a data science project for the Finance and Taxation Bureau, Tainan City Government in December 2022, the researcher modeled the spatial distribution of location adjustment parameters with Multiple Input CNN for assessing standard values of houses in Tainan City, Taiwan.
 
-For "POIs with a smaller range of influence" and "POIs with a larger range of influence", a grid of 100m*100m is used as the basic unit. The number of various POIs in each grid is used as the value of this grid, which is trained by CNN with various POI data in latitude and longitude format. For the numerical data of a single point, Linear Regression is applied to promote the performance of the prediction.
+For "POIs with a smaller range of influence" and "POIs with a larger range of influence", a grid of 100m*100m is used as the basic unit. The number of various POIs in each grid is used as the value of this grid, which CNN trained with various POI data in latitude and longitude format. For the numerical data of a single point, Linear Regression is applied to promote the performance of the prediction.
 
 The features extracted by the three models (two CNNs, one Linear Regression) are combined, and then the fully connected layer is used to learn the feature of the location rate.
 
@@ -68,7 +68,7 @@ Finally, the features extracted by the 3 models (two CNNs, one Linear Regression
 
 ｜Model Results & Interpretation
 
-- In the case analysis, use the "loss between forecast and LPA in 2022" layer, and indicates the model's suggestion for the construction of the LAP of the road section:
+- In the case analysis, use the "loss between forecast and LPA in 2022" layer, and indicate the model's suggestion for the construction of the LAP of the road section:
 1. The redder the color, the model suggests that the LAP in this area should be increased.
 2. The bluer the color, the model suggests that the LAP in this area should be reduced.
 Model adjustment suggestions are considered reasonable and accurate after being evaluated by professionals.
